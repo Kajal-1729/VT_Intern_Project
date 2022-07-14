@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Registration Form</title>
+</head>
+<body>
+<div class="container">
+	<div class="title">Register Account</div>
+	<div class="undertitle">Get your Symox account now.</div>
+	<form action="connect.php" method="post">
+		<div class="user-details">
+			<div class="input-box">
+				<span class="details">
+					First Name
+				</span>
+				<input type="text"  placeholder="Enter First Name" id="firstName" name="firstName" required>
+			</div>
+			<div class="input-box">
+				<span class="details">
+					Last Name
+				</span>
+				<input type="text"  placeholder="Enter Last Name" id="lastName" name="lastName" required>
+			</div>
+			<div class="input-box">
+				<span class="details">
+					Mobile Number
+				</span>
+				<input type="text"  placeholder="Enter Mobile Number" id="Number" value="Number" required>
+			</div>
+			<div class="input-box">
+				<span class="details">
+					Email ID
+				</span>
+				<input type="text"  placeholder="Enter Email ID"id="email" name="email" required>
+			</div>
+			<div class="input-box">
+				<span class="details">
+					Location
+				</span>
+				<input type="text"  placeholder="Enter Location" id="location" name="location" required>
+			</div>
+		
+           <div id="duplicate">
+            <label for="duplicate">Duplicate Type</label>
+<br>
+<input type="radio" name="duplicate" value="Normal" checked>Normal<br></input>
+
+
+<input type="radio" name="duplicate" value="Abnormal">Abnormal</input>
+
+</div> 
+  
+			<div class="input-box">
+				<span class="details">
+					Resume Upload
+				</span>
+				<input type="file" name="upload">
+			</div> 
+			<!--<div>
+			 <label for="myfile">Resume Upload</label><br><br>
+  <input type="file" id="myfile" name="myfile">
+</div> -->
+			<div class="input-box">
+				<span class="details">
+					Skill Name
+				</span>
+				<input type="text"  placeholder="Enter Skills " id="skill" value="skill" required>
+			</div>
+			<div class="input-box">
+				<span class="details">
+					Alternate Email id
+				</span>
+				<input type="text"  placeholder="Enter Email id"  id="Alternate id" name="Alternate id" required>
+			</div>
+			<div class="input-box">
+				<span class="details">
+					Comments
+				</span>
+				<input type="text"  placeholder="Enter Email id" id="comment" value="comment" >
+			</div>
+					
+			<div class="input-box">
+				<span class="details">
+					Resume Recorded Date
+				</span>
+				<input type="date" name="recorded date">
+			</div> 
+			<!--<div>
+				<label for="date">Resume Recorded Date</label><br><br>
+  <input type="date" id="date" name="date">
+			</div> -->
+				<div class="input-box">
+				<span class="details">
+					Capability/Function Name
+				</span>
+				<input type="text"  placeholder="Enter Email id" id="Function name" name="Function name">
+			</div>
+				<div class="input-box">
+				<span class="details">
+					Position Name
+				</span>
+				<input type="text"  placeholder="Enter Email id" id="position" value="position">
+			</div>
+			<!--<p>Freeze Y/N</p>	
+			<input type="radio"  name="yes_no">Yes</input> -->
+			<div id="yn">
+  <label for="yes_no_radio">Freeze Y/N</label>
+<br>
+<input type="radio" name="yes_no" value="Yes" checked>Yes</input>
+<br>
+
+<input type="radio" name="yes_no" value="No">No</input>
+
+</div>
+  
+         <div class="input-box">
+				<span class="details">
+					Management Level
+				</span>
+				<input type="text"  placeholder="Enter" id="management" name="management">
+			</div>
+<div class="input-box">
+				<span class="details">
+					Interview Status
+				</span>
+				<input type="text"  placeholder="interview Status" id="interview" name="interview">
+			</div>
+			<div class="input-box">
+				<span class="details">
+					EAF Status
+				</span>
+				<input type="text"  placeholder="Enter EAF Status" id="EAF" name="EAF">
+			</div>
+			<div class="input-box">
+				<span class="details">
+					Purge Flag
+				</span>
+				<input type="text"  placeholder="Enter" id="pur" name="pur">
+			</div>
+			<div class="input-box">
+				<span class="details">
+					SR Details
+				</span>
+				<input type="text"  placeholder="Enter SR Details" id="SR" name="SR">
+			</div>
+			<div class="input-box">
+				<span class="details">
+					Date of Joining
+				</span>
+				<input type="date" name="joining date">
+			</div>
+
+		</div>
+		<div class="button">
+			<input type="Submit" value="Submit">
+		</div>
+	</form>
+</div>
+
+</body></html>
