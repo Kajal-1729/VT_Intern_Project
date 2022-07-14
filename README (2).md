@@ -19,15 +19,13 @@ A registration form is a list of fields that a user will input data into and sub
 2.Choose background image from pixabay and use it.
 3.I make format of form by html and style it by css and connect it by php and mysql for databases.
 
-
-
-
-
-
-
-
 ### Resources
 https://www.w3schools.com/
+
 https://getbootstrap.com/
+
 https://www.geeksforgeeks.org/
+
 https://pixabay.com/
+
+https://app.uizard.io/p/ed63142a
